@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nobasys Menu diario</string>
+    <string name="tipomenu">Tipo Menú:</string>
+    <string name="cod_tipomenu">Código Tipo Menú:</string>
+    <string name="detalle">Detalle:</string>
+    <string name="preparacion">Preparación:</string>
+    <string name="compras">Compras:</string>
+    <string name="btn_guarda">Guardar registro</string>
+    <string name="btn_editar">Modificar registro</string>
+    <string name="menu_nuevo">Nuevo menú</string>
+    <string name="semana_nueva">Nueva semana</string>
+    <string name="semana">Semana No.</string>
+    <string name="dia">Día</string>
+    <string name="fecha">Fecha</string>
+    <string name="cod_desayuno">Cod_desayuno</string>
+    <string name="cod_almuerzo">Cod_almuerzo</string>
+    <string name="cod_merienda">Cod_merienda</string>
+    <string name="btnEligeDes">Buscar Desayunos</string>
+    <string name="btnEligeAlm">Buscar Almuerzos</string>
+    <string name="btnEligeMer">Buscar Meriendas</string>
+
+</resources>

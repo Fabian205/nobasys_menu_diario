@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VerActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewTipoMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tipomenu"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/txtv_TipoMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/viewTipoMenu"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"/>
+
+        <!--<TextView
+            android:id="@+id/viewCodTipoMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cod_tipomenu"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/txtv_CodTipoMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/viewCodTipoMenu"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"/>-->
+
+        <TextView
+            android:id="@+id/viewDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detalle"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/txtv_Detalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/viewDetalle"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"/>
+
+        <TextView
+            android:id="@+id/viewPreparacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/preparacion"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/txtv_Preparacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/viewPreparacion"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"/>
+
+        <TextView
+            android:id="@+id/viewCompras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compras"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/txtv_Compras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:labelFor="@+id/viewCompras"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="8sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic_edit"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="8sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic_delete"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="8sp" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabIncluirMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic_add"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuardaMenuSemanalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="170dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtSemana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/semana"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/etSemana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewTipoMenu"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/txtDia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dia"
+            android:textColor="@color/teal_700"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Spinner
+            android:id="@+id/spinnerDia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/dia"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnBuscaDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/btnEligeDes"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etCodDesayuno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewCodDesayuno"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnBuscaAlm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/btnEligeAlm"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etCodMer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewCodAlmuerzo"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btnBuscaMer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal"
+            android:backgroundTint="@color/teal_700"
+            android:text="@string/btnEligeMer"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etCodMerienda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewCodMerienda"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btn_guarda"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
